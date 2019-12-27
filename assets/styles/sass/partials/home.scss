@@ -1,0 +1,123 @@
+.home {
+
+  &-wrapper {
+    background: url('../../../img/home-stage.jpg') no-repeat top right $color-base-light;
+    background-size: 100% auto;
+    height: 100vh;
+    position: relative;
+
+    @media(max-width:1100px) {
+      height: auto;
+      padding-top: 500px;
+    }
+
+    @media(max-width:991px) {
+      padding-top: 400px;
+    }
+
+    @media(max-width:500px) {
+      padding-top: 350px;
+    }
+  }
+
+  &-teaser {
+    background: $color-base-light;
+    bottom: 0;
+    padding: ($padding * 6) ($padding * 2) ($padding * 3);
+    position: absolute;
+    width: 100%;
+
+    @media(max-width:1100px) {
+      padding: ($padding * 4) $padding ($padding * 3);
+      position: relative;
+    }
+  }
+
+  &-claim {
+    background: $color-black;
+    color: $color-white;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-10;
+    left: 0;
+    line-height: 1.2;
+    padding: ($padding * 2);
+    position: absolute;
+    top: -165px;
+
+    @media(max-width:1100px) {
+      padding: ($padding * 2) $padding;
+    }
+
+    @media(max-width:991px) {
+      font-size: $font-size-8;
+    }
+  }
+
+  &-item {
+    background: $color-white;
+    display: block;
+    min-height: 175px;
+    overflow: hidden;
+    padding: ($padding * 2);
+    z-index: 2;
+
+    @media(max-width:1100px) {
+      margin: $margin 0;
+    }
+
+    &:hover {
+      -webkit-box-shadow: 0px 7px 100px 0px rgba(0,0,0,0.2);
+      -moz-box-shadow: 0px 7px 100px 0px rgba(0,0,0,0.2);
+      box-shadow: 0px 7px 100px 0px rgba(0,0,0,0.2);
+      text-decoration: none;
+      z-index: 100;
+
+      @media(min-width:1101px) {
+        transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+
+        .home-image-wrapper img, .home-button {
+          transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+        }
+
+      }
+    }
+
+    &-link {
+      color: $color-red;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      i {
+        margin-left: 4px;
+        position: relative;
+        top: 3px;
+      }
+    }
+
+    &-content {
+      p {
+        font-size: $font-size-4;
+      }
+    }
+  }
+
+  &-title {
+    color: $color-black;
+    margin: 0;
+  }
+
+  &-subline {
+    color: $color-black;
+
+    @media(max-height:500px) {
+      display: none;
+    }
+  }
+
+}
