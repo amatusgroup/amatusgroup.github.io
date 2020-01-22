@@ -2,8 +2,8 @@
 layout: project
 has_inner_page: false
 internal_link: projects/track
-external_link: http://track.amatus.com
-external_link_view: http://track.amatus.com
+external_link: http://track-my-property.com
+external_link_view: http://track-my-property.com
 name: track
 description_outer: 'fairplay in the rental market - we track who sublets their apartments
   on the web  '
@@ -19,7 +19,7 @@ contact_name: Jann Speyer
 logo: "/img/track logo mittel.png"
 image: ''
 video_link: ''
-order: 3
+order: "3"
 has_video: false
 type: fintech
 
