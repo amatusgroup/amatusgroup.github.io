@@ -12,8 +12,8 @@ description_inner: |-
   Our team decentralizes research, analysis, decision-making and automation and centralizes risk management, enabling us to implement a diverse range of trading strategies while ensuring that risks are comprehensively outlined and controlled with transparent accountability. Our investment and trading professionals are located in the Carribean, Europe and North America.
 headline: Asquared Capital is a sci-tech quantitative trading firm
 status: Running
-contact_link: https://www.linkedin.com/in/philipp-richter-47493135/
-contact_name: Philipp
+contact_link: https://www.linkedin.com/in/robertschmidtke
+contact_name: Robert
 logo: "/img/asquared_logo-1.png"
 image: ''
 has_video: false
