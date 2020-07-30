@@ -6,7 +6,7 @@ first_name: Olga
 full_name: Spytska
 position: Intern
 link: https://www.linkedin.com/in/olgaspytska/
-image: "/img/olga.png"
+image: ''
 order: "9"
 
 ---
