@@ -8,6 +8,5 @@ position: Intern
 link: https://www.linkedin.com/in/olgaspytska/
 image: "/img/olga.png"
 order: "10"
-published: false
 
 ---
