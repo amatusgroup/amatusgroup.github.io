@@ -6,7 +6,7 @@ first_name: Olga
 full_name: Spytska
 position: Intern
 link: https://www.linkedin.com/in/olgaspytska/
-image: "/img/pedro.png"
+image: "/img/fffe5181-e5da-4b27-b5cd-3b0a294abab5.jpeg"
 order: "9"
 
 ---
